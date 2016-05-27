@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61E3FE81CF8F76700DE3EDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E3FE71CF8F76700DE3EDC /* AppDelegate.swift */; };
+		C61E3FEA1CF8F76700DE3EDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E3FE91CF8F76700DE3EDC /* ViewController.swift */; };
+		C61E3FED1CF8F76700DE3EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61E3FEB1CF8F76700DE3EDC /* Main.storyboard */; };
+		C61E3FEF1CF8F76700DE3EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61E3FEE1CF8F76700DE3EDC /* Assets.xcassets */; };
+		C61E3FF21CF8F76700DE3EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61E3FF01CF8F76700DE3EDC /* LaunchScreen.storyboard */; };
+		C61E3FFD1CF8F76700DE3EDC /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E3FFC1CF8F76700DE3EDC /* RoshamboTests.swift */; };
+		C61E40081CF8F76700DE3EDC /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E40071CF8F76700DE3EDC /* RoshamboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61E3FF91CF8F76700DE3EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61E3FDC1CF8F76700DE3EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61E3FE31CF8F76700DE3EDC;
+			remoteInfo = Roshambo;
+		};
+		C61E40041CF8F76700DE3EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61E3FDC1CF8F76700DE3EDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61E3FE31CF8F76700DE3EDC;
+			remoteInfo = Roshambo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61E3FE41CF8F76700DE3EDC /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E3FE71CF8F76700DE3EDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C61E3FE91CF8F76700DE3EDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C61E3FEC1CF8F76700DE3EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61E3FEE1CF8F76700DE3EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61E3FF11CF8F76700DE3EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C61E3FF31CF8F76700DE3EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61E3FF81CF8F76700DE3EDC /* RoshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E3FFC1CF8F76700DE3EDC /* RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboTests.swift; sourceTree = "<group>"; };
+		C61E3FFE1CF8F76700DE3EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61E40031CF8F76700DE3EDC /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E40071CF8F76700DE3EDC /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
+		C61E40091CF8F76700DE3EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61E3FE11CF8F76700DE3EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61E3FF51CF8F76700DE3EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61E40001CF8F76700DE3EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61E3FDB1CF8F76700DE3EDC = {
+			isa = PBXGroup;
+			children = (
+				C61E3FE61CF8F76700DE3EDC /* Roshambo */,
+				C61E3FFB1CF8F76700DE3EDC /* RoshamboTests */,
+				C61E40061CF8F76700DE3EDC /* RoshamboUITests */,
+				C61E3FE51CF8F76700DE3EDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61E3FE51CF8F76700DE3EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61E3FE41CF8F76700DE3EDC /* Roshambo.app */,
+				C61E3FF81CF8F76700DE3EDC /* RoshamboTests.xctest */,
+				C61E40031CF8F76700DE3EDC /* RoshamboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61E3FE61CF8F76700DE3EDC /* Roshambo */ = {
+			isa = PBXGroup;
+			children = (
+				C61E3FE71CF8F76700DE3EDC /* AppDelegate.swift */,
+				C61E3FE91CF8F76700DE3EDC /* ViewController.swift */,
+				C61E3FEB1CF8F76700DE3EDC /* Main.storyboard */,
+				C61E3FEE1CF8F76700DE3EDC /* Assets.xcassets */,
+				C61E3FF01CF8F76700DE3EDC /* LaunchScreen.storyboard */,
+				C61E3FF31CF8F76700DE3EDC /* Info.plist */,
+			);
+			path = Roshambo;
+			sourceTree = "<group>";
+		};
+		C61E3FFB1CF8F76700DE3EDC /* RoshamboTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61E3FFC1CF8F76700DE3EDC /* RoshamboTests.swift */,
+				C61E3FFE1CF8F76700DE3EDC /* Info.plist */,
+			);
+			path = RoshamboTests;
+			sourceTree = "<group>";
+		};
+		C61E40061CF8F76700DE3EDC /* RoshamboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61E40071CF8F76700DE3EDC /* RoshamboUITests.swift */,
+				C61E40091CF8F76700DE3EDC /* Info.plist */,
+			);
+			path = RoshamboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61E3FE31CF8F76700DE3EDC /* Roshambo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61E400C1CF8F76700DE3EDC /* Build configuration list for PBXNativeTarget "Roshambo" */;
+			buildPhases = (
+				C61E3FE01CF8F76700DE3EDC /* Sources */,
+				C61E3FE11CF8F76700DE3EDC /* Frameworks */,
+				C61E3FE21CF8F76700DE3EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roshambo;
+			productName = Roshambo;
+			productReference = C61E3FE41CF8F76700DE3EDC /* Roshambo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61E3FF71CF8F76700DE3EDC /* RoshamboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61E400F1CF8F76700DE3EDC /* Build configuration list for PBXNativeTarget "RoshamboTests" */;
+			buildPhases = (
+				C61E3FF41CF8F76700DE3EDC /* Sources */,
+				C61E3FF51CF8F76700DE3EDC /* Frameworks */,
+				C61E3FF61CF8F76700DE3EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61E3FFA1CF8F76700DE3EDC /* PBXTargetDependency */,
+			);
+			name = RoshamboTests;
+			productName = RoshamboTests;
+			productReference = C61E3FF81CF8F76700DE3EDC /* RoshamboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61E40021CF8F76700DE3EDC /* RoshamboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61E40121CF8F76700DE3EDC /* Build configuration list for PBXNativeTarget "RoshamboUITests" */;
+			buildPhases = (
+				C61E3FFF1CF8F76700DE3EDC /* Sources */,
+				C61E40001CF8F76700DE3EDC /* Frameworks */,
+				C61E40011CF8F76700DE3EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61E40051CF8F76700DE3EDC /* PBXTargetDependency */,
+			);
+			name = RoshamboUITests;
+			productName = RoshamboUITests;
+			productReference = C61E40031CF8F76700DE3EDC /* RoshamboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61E3FDC1CF8F76700DE3EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abdisalan Mohamud";
+				TargetAttributes = {
+					C61E3FE31CF8F76700DE3EDC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P7FP3D7CDH;
+					};
+					C61E3FF71CF8F76700DE3EDC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P7FP3D7CDH;
+						TestTargetID = C61E3FE31CF8F76700DE3EDC;
+					};
+					C61E40021CF8F76700DE3EDC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P7FP3D7CDH;
+						TestTargetID = C61E3FE31CF8F76700DE3EDC;
+					};
+				};
+			};
+			buildConfigurationList = C61E3FDF1CF8F76700DE3EDC /* Build configuration list for PBXProject "Roshambo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61E3FDB1CF8F76700DE3EDC;
+			productRefGroup = C61E3FE51CF8F76700DE3EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61E3FE31CF8F76700DE3EDC /* Roshambo */,
+				C61E3FF71CF8F76700DE3EDC /* RoshamboTests */,
+				C61E40021CF8F76700DE3EDC /* RoshamboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61E3FE21CF8F76700DE3EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61E3FF21CF8F76700DE3EDC /* LaunchScreen.storyboard in Resources */,
+				C61E3FEF1CF8F76700DE3EDC /* Assets.xcassets in Resources */,
+				C61E3FED1CF8F76700DE3EDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61E3FF61CF8F76700DE3EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61E40011CF8F76700DE3EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61E3FE01CF8F76700DE3EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61E3FEA1CF8F76700DE3EDC /* ViewController.swift in Sources */,
+				C61E3FE81CF8F76700DE3EDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61E3FF41CF8F76700DE3EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61E3FFD1CF8F76700DE3EDC /* RoshamboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61E3FFF1CF8F76700DE3EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61E40081CF8F76700DE3EDC /* RoshamboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61E3FFA1CF8F76700DE3EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61E3FE31CF8F76700DE3EDC /* Roshambo */;
+			targetProxy = C61E3FF91CF8F76700DE3EDC /* PBXContainerItemProxy */;
+		};
+		C61E40051CF8F76700DE3EDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61E3FE31CF8F76700DE3EDC /* Roshambo */;
+			targetProxy = C61E40041CF8F76700DE3EDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C61E3FEB1CF8F76700DE3EDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61E3FEC1CF8F76700DE3EDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C61E3FF01CF8F76700DE3EDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61E3FF11CF8F76700DE3EDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C61E400A1CF8F76700DE3EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61E400B1CF8F76700DE3EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61E400D1CF8F76700DE3EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roshambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdi.Roshambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C61E400E1CF8F76700DE3EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roshambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdi.Roshambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C61E40101CF8F76700DE3EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoshamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdi.RoshamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshambo.app/Roshambo";
+			};
+			name = Debug;
+		};
+		C61E40111CF8F76700DE3EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoshamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdi.RoshamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshambo.app/Roshambo";
+			};
+			name = Release;
+		};
+		C61E40131CF8F76700DE3EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoshamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdi.RoshamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Roshambo;
+			};
+			name = Debug;
+		};
+		C61E40141CF8F76700DE3EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoshamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdi.RoshamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Roshambo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61E3FDF1CF8F76700DE3EDC /* Build configuration list for PBXProject "Roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61E400A1CF8F76700DE3EDC /* Debug */,
+				C61E400B1CF8F76700DE3EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61E400C1CF8F76700DE3EDC /* Build configuration list for PBXNativeTarget "Roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61E400D1CF8F76700DE3EDC /* Debug */,
+				C61E400E1CF8F76700DE3EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C61E400F1CF8F76700DE3EDC /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61E40101CF8F76700DE3EDC /* Debug */,
+				C61E40111CF8F76700DE3EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C61E40121CF8F76700DE3EDC /* Build configuration list for PBXNativeTarget "RoshamboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61E40131CF8F76700DE3EDC /* Debug */,
+				C61E40141CF8F76700DE3EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61E3FDC1CF8F76700DE3EDC /* Project object */;
+}
