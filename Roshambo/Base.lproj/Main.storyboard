@@ -17,42 +17,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNW-Aj-FTG">
-                                <rect key="frame" x="271" y="437" width="58" height="30"/>
-                                <state key="normal" title="Scissors"/>
-                                <connections>
-                                    <action selector="scissorMove" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFW-Gl-VWv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ym-os-ZEh">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ym-os-ZEh">
+                                <rect key="frame" x="262" y="267" width="76" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="Xug-3G-V2o"/>
+                                    <constraint firstAttribute="width" constant="76" id="OnD-Yu-Mqd"/>
                                 </constraints>
-                                <state key="normal" title="Paper"/>
+                                <state key="normal" title="Paper" image="paper"/>
                                 <connections>
                                     <action selector="paperMove" destination="BYZ-38-t0r" eventType="touchUpInside" id="LxH-CY-FW0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJk-de-YM8">
-                                <rect key="frame" x="277" y="147" width="46" height="30"/>
-                                <state key="normal" title="Rock"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJk-de-YM8">
+                                <rect key="frame" x="262" y="102" width="76" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="YVz-op-tv7"/>
+                                </constraints>
+                                <state key="normal" title="Rock" image="rock"/>
                                 <connections>
                                     <action selector="rockMove" destination="BYZ-38-t0r" eventType="touchUpInside" id="jLJ-hC-buy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNW-Aj-FTG">
+                                <rect key="frame" x="262" y="432" width="76" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="wMR-AC-XBq"/>
+                                </constraints>
+                                <state key="normal" title="Scissors" image="scissors"/>
+                                <connections>
+                                    <action selector="scissorMove" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFW-Gl-VWv"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5ym-os-ZEh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3s6-HV-o95"/>
-                            <constraint firstItem="5ym-os-ZEh" firstAttribute="leading" secondItem="wJk-de-YM8" secondAttribute="leading" id="E1W-LJ-6Bj"/>
-                            <constraint firstItem="5ym-os-ZEh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="285" id="ScJ-xP-Jt4"/>
-                            <constraint firstItem="wJk-de-YM8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yaw-dI-Zsn"/>
-                            <constraint firstItem="5ym-os-ZEh" firstAttribute="leading" secondItem="LNW-Aj-FTG" secondAttribute="leading" constant="6" id="erg-mg-aMx"/>
-                            <constraint firstItem="LNW-Aj-FTG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iRR-vt-aLq"/>
-                            <constraint firstItem="LNW-Aj-FTG" firstAttribute="top" secondItem="5ym-os-ZEh" secondAttribute="bottom" constant="122" id="jkz-ld-ai2"/>
-                            <constraint firstItem="wJk-de-YM8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="127" id="nph-He-59w"/>
+                            <constraint firstItem="5ym-os-ZEh" firstAttribute="top" secondItem="wJk-de-YM8" secondAttribute="bottom" constant="64" id="3T3-8V-joR"/>
+                            <constraint firstItem="LNW-Aj-FTG" firstAttribute="top" secondItem="5ym-os-ZEh" secondAttribute="bottom" constant="100" id="EHu-G5-Gki"/>
+                            <constraint firstItem="LNW-Aj-FTG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q6I-1W-b5x"/>
+                            <constraint firstItem="5ym-os-ZEh" firstAttribute="top" secondItem="wJk-de-YM8" secondAttribute="bottom" constant="100" id="UUM-Vp-NVZ"/>
+                            <constraint firstItem="wJk-de-YM8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d81-Xf-5xZ"/>
+                            <constraint firstItem="5ym-os-ZEh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fLz-K3-cCx"/>
+                            <constraint firstItem="5ym-os-ZEh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fiz-pX-r94"/>
+                            <constraint firstItem="LNW-Aj-FTG" firstAttribute="top" secondItem="5ym-os-ZEh" secondAttribute="bottom" constant="89" id="pZ0-P7-lBH"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3T3-8V-joR"/>
+                                <exclude reference="pZ0-P7-lBH"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <segue destination="0Di-72-r4r" kind="presentation" identifier="play" id="ue6-6C-sen"/>
@@ -127,5 +139,7 @@
     </scenes>
     <resources>
         <image name="paper" width="75" height="65"/>
+        <image name="rock" width="75" height="65"/>
+        <image name="scissors" width="75" height="65"/>
     </resources>
 </document>
