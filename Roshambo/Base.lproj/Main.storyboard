@@ -20,6 +20,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNW-Aj-FTG">
                                 <rect key="frame" x="271" y="437" width="58" height="30"/>
                                 <state key="normal" title="Scissors"/>
+                                <connections>
+                                    <action selector="scissorMove" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFW-Gl-VWv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ym-os-ZEh">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>

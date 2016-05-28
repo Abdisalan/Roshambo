@@ -39,15 +39,20 @@ class RoshamboController: UIViewController {
     
     //CODE AND STORYBOARD
     @IBAction func paperMove() {
-        move = "paper"
+        self.move = "paper"
+        performSegueWithIdentifier("play", sender: self)
+    }
+    
+    @IBAction func scissorMove() {
+        self.move = "scissors"
         performSegueWithIdentifier("play", sender: self)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let controller = segue.destinationViewController as! ResultController
-        controller.playerMove = move
+        controller.playerMove = self.move
         controller.computerMove = computersMove()
-        print("paper played")
+        print(self.move+" played")
     }
     
     
