@@ -14,6 +14,7 @@
 		C61E3FF21CF8F76700DE3EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61E3FF01CF8F76700DE3EDC /* LaunchScreen.storyboard */; };
 		C61E3FFD1CF8F76700DE3EDC /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E3FFC1CF8F76700DE3EDC /* RoshamboTests.swift */; };
 		C61E40081CF8F76700DE3EDC /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E40071CF8F76700DE3EDC /* RoshamboUITests.swift */; };
+		C61E40181CF904BF00DE3EDC /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61E40171CF904BF00DE3EDC /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C61E40031CF8F76700DE3EDC /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61E40071CF8F76700DE3EDC /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		C61E40091CF8F76700DE3EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61E40171CF904BF00DE3EDC /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C61E3FE71CF8F76700DE3EDC /* AppDelegate.swift */,
 				C61E3FE91CF8F76700DE3EDC /* ViewController.swift */,
+				C61E40171CF904BF00DE3EDC /* ResultController.swift */,
 				C61E3FEB1CF8F76700DE3EDC /* Main.storyboard */,
 				C61E3FEE1CF8F76700DE3EDC /* Assets.xcassets */,
 				C61E3FF01CF8F76700DE3EDC /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				C61E3FEA1CF8F76700DE3EDC /* ViewController.swift in Sources */,
 				C61E3FE81CF8F76700DE3EDC /* AppDelegate.swift in Sources */,
+				C61E40181CF904BF00DE3EDC /* ResultController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
